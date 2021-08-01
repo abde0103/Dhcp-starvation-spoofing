@@ -1,4 +1,4 @@
-# Aim
+## Aim
 
 The objective of this project is to starve a dhcp server : run it out of all its available ip adresses and then usurp the identity of a dhcp server to give legitimate clients fake ip adresses and malicious informations: We can set the ip address of the attacker as a router in the offer packet. Thus, all the client traffic will pass by the attacker machine.
 
